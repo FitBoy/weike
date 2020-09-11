@@ -1,0 +1,118 @@
+PODS:
+  - AFNNetworking (3.4.8):
+    - SDWebImage
+    - SVProgressHUD
+  - CYLTabBarController (1.29.0):
+    - CYLTabBarController/Core (= 1.29.0)
+  - CYLTabBarController/Core (1.29.0)
+  - EasyShowView (2.1.4):
+    - EasyShowView/EasyAlert (= 2.1.4)
+    - EasyShowView/EasyEmpty (= 2.1.4)
+    - EasyShowView/EasyLoading (= 2.1.4)
+    - EasyShowView/EasyShowUtils (= 2.1.4)
+    - EasyShowView/EasyText (= 2.1.4)
+  - EasyShowView/EasyAlert (2.1.4):
+    - EasyShowView/EasyShowUtils
+  - EasyShowView/EasyEmpty (2.1.4):
+    - EasyShowView/EasyShowUtils
+  - EasyShowView/EasyLoading (2.1.4):
+    - EasyShowView/EasyShowUtils
+  - EasyShowView/EasyShowUtils (2.1.4)
+  - EasyShowView/EasyText (2.1.4):
+    - EasyShowView/EasyShowUtils
+  - EBPhotoPages (0.9.2)
+  - ELCImagePickerController (0.2.0)
+  - IQKeyboardManager (6.5.6)
+  - JKCountDownButton (1.3.0)
+  - JXCategoryView (1.5.6)
+  - Masonry (1.1.0)
+  - MJExtension (3.2.2)
+  - MJRefresh (3.5.0)
+  - PGDatePicker (2.6.9):
+    - PGPickerView
+  - PGPickerView (1.3.8)
+  - RongCloudIM (4.0.2):
+    - RongCloudIM/IMKit (= 4.0.2)
+    - RongCloudIM/IMLib (= 4.0.2)
+    - RongCloudIM/RongSticker (= 4.0.2)
+    - RongCloudIM/Sight (= 4.0.2)
+  - RongCloudIM/IMKit (4.0.2):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (4.0.2)
+  - RongCloudIM/RongSticker (4.0.2):
+    - RongCloudIM/IMKit
+  - RongCloudIM/Sight (4.0.2):
+    - RongCloudIM/IMKit
+  - SDWebImage (5.8.4):
+    - SDWebImage/Core (= 5.8.4)
+  - SDWebImage/Core (5.8.4)
+  - SGQRCode (3.0.1)
+  - SVProgressHUD (2.2.5)
+  - TZImagePickerController (3.4.2)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNNetworking (~> 3.4.8)
+  - CYLTabBarController (~> 1.29.0)
+  - EasyShowView (~> 2.1.4)
+  - EBPhotoPages (~> 0.9.2)
+  - ELCImagePickerController (~> 0.2.0)
+  - IQKeyboardManager (~> 6.5.6)
+  - JKCountDownButton (~> 1.3.0)
+  - JXCategoryView (~> 1.5.6)
+  - Masonry (~> 1.1.0)
+  - MJExtension (~> 3.2.2)
+  - MJRefresh (~> 3.5.0)
+  - PGDatePicker
+  - RongCloudIM (~> 4.0.2)
+  - SDWebImage (~> 5.8.4)
+  - SGQRCode (~> 3.0.1)
+  - TZImagePickerController (~> 3.4.2)
+  - YYText (~> 1.0.7)
+
+SPEC REPOS:
+  trunk:
+    - AFNNetworking
+    - CYLTabBarController
+    - EasyShowView
+    - EBPhotoPages
+    - ELCImagePickerController
+    - IQKeyboardManager
+    - JKCountDownButton
+    - JXCategoryView
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - PGDatePicker
+    - PGPickerView
+    - RongCloudIM
+    - SDWebImage
+    - SGQRCode
+    - SVProgressHUD
+    - TZImagePickerController
+    - YYText
+
+SPEC CHECKSUMS:
+  AFNNetworking: c0a09b2950113cc8a939c0c8de4f91bf7020737a
+  CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
+  EasyShowView: ec832e175d5926baef413e2dc095fb4ec5c3add4
+  EBPhotoPages: c58d6d068b12f22cebb41c34f84446a4090bc784
+  ELCImagePickerController: b1b7084434a7d49f2cfc916bde1f3ba353d38de9
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JKCountDownButton: 3b557e75d23e7243bb63c8130e6d12d8510468dd
+  JXCategoryView: 603ccd8277a89b1a73e9cedb9d8ed4b294576008
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  PGDatePicker: 88960f3760edac96219c10320f25536ad31d0f44
+  PGPickerView: 037acfb132a4c8054fb43aaa59a5ff50c7f747f5
+  RongCloudIM: 8a068b5c6bd6fb2e770a5f245fcd9d6832296515
+  SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
+  SGQRCode: bf02d60e18d6660a9d75ff1c8b9b467f064f054e
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TZImagePickerController: cc0b74d5f01ab4cddcc24dcdfc3c7d68e6261056
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 42f5e04e61e0e49bea6bf1f81e01468b938dcce6
+
+COCOAPODS: 1.9.3
