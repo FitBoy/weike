@@ -1,8 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-social/Pods-social-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/AFNNetworking/AFNNetworking.framework
 ${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework
-${BUILT_PRODUCTS_DIR}/EBPhotoPages/EBPhotoPages.framework
-${BUILT_PRODUCTS_DIR}/ELCImagePickerController/ELCImagePickerController.framework
 ${BUILT_PRODUCTS_DIR}/EasyShowView/EasyShowView.framework
 ${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
 ${BUILT_PRODUCTS_DIR}/JKCountDownButton/JKCountDownButton.framework

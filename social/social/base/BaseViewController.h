@@ -9,6 +9,7 @@
 #define  userDefault  [NSUserDefaults standardUserDefaults]
 #define  firstIn @"firstIn"
 #define isLogin @"isLogin"
+#define AMap_key @"a7a9d0c15e35ea1a9052a676f47b6ed9"
 
 #define  font(m)  [UIFont systemFontOfSize:m]
 
@@ -22,6 +23,7 @@
 #import "SXTHTTPTool.h"
 #import <RongIMKit/RongIMKit.h>
 #import <SDWebImage.h>
+#import <TZImagePickerController.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseViewController : UIViewController
@@ -33,6 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)clearLocalData;
 
 -(void)jumpWebVcWithtype:(NSString*)type;
+/// 上传图片
+-(void)UploadImages:(NSArray*)image block:(void (^)(BOOL isSuccess ,NSString *tstr))block;
 @end
 
 NS_ASSUME_NONNULL_END

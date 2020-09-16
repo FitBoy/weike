@@ -199,8 +199,6 @@ fi
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNNetworking/AFNNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/EBPhotoPages/EBPhotoPages.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ELCImagePickerController/ELCImagePickerController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/EasyShowView/EasyShowView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JKCountDownButton/JKCountDownButton.framework"
@@ -219,8 +217,6 @@ fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AFNNetworking/AFNNetworking.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/EBPhotoPages/EBPhotoPages.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ELCImagePickerController/ELCImagePickerController.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/EasyShowView/EasyShowView.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/JKCountDownButton/JKCountDownButton.framework"

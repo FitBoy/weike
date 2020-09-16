@@ -57,9 +57,40 @@
         
     }];
     
-    
+   
 }
 
+-(void)UploadImages:(NSArray*)image block:(void (^)(BOOL isSuccess ,NSString *tstr))block{
+    
+  [EasyLoadingView showLoading];
+   
+   NSMutableString *str_imgs = [NSMutableString string];
+   for (int i=0; i<image.count; i++) {
+         NSString *tstr = [self base64FromImage:image[i]];
+       if (i==image.count-1) {
+         
+           [str_imgs appendString:tstr];
+       }else{
+           [str_imgs appendFormat:@"%@-",tstr];
+       }
+   }
+   
+   [SXTHTTPTool postData:[NSString stringWithFormat:@"%@%@",ServerAdress,@"/api/multiBase64Upload"] parameters:@{
+       @"imgurl":str_imgs
+   } success:^(id  _Nonnull responseObject) {
+       if ([responseObject[@"code"] integerValue] ==1) {
+           //再次上传反馈信息
+           block(YES,responseObject[@"data"][@"str"]);
+       }else{
+           block(NO,@"");
+           [EasyTextView showErrorText:responseObject[@"msg"]];
+       }
+   } error:^(NSError * _Nonnull error) {
+       
+   }];
+    
+    
+}
 
 
 - (BOOL)isPhoneNumWithPhone:(NSString *)phone

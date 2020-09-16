@@ -64,7 +64,7 @@ static SXTHTTPTool *manager = nil;
 
 
 
-#pragma mark --POST提交请求（图片file）
+#pragma mark --POST提交请求（视频）
 + (void)postData:(NSString *)url parameters:(NSDictionary *)param constructBody:(NSArray *)bodyArry success:(requestSuccessBlock)returnSuccess error:(requestErrorBlock)returnError{
     [[SXTHTTPTool shareInstance] POST:url parameters:param constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
         

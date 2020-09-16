@@ -105,7 +105,7 @@
 -(UITableView *)tableV{
     
     if (!_tableV) {
-        _tableV = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, MainScreenWidth, MainScreenHeight-SafeAreaBottom-NavigationbarHeight) style:UITableViewStyleGrouped];
+        _tableV = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, MainScreenWidth, MainScreenHeight-SafeAreaBottom) style:UITableViewStyleGrouped];
         [self.view addSubview:_tableV];
         _tableV.delegate =self;
         _tableV.dataSource = self;

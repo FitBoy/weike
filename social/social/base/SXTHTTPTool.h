@@ -21,9 +21,11 @@
 //WEB图片地址
 #define WebServerAdress                 @"http://xzy.zgzntc.cn"
 //图片地址
-#define ImageServerAdress               @"http://sfn.zhucaiyan.cn/uploads/"
+#define ImageServerAdress               @"https://developbucket.oss-cn-qingdao.aliyuncs.com/"
 //视频地址
-#define VideoServerAdress               @"http://xzy.zgzntc.cn/api/displayFile/"
+#define VideoServerAdress               @"https://developbucket.oss-cn-qingdao.aliyuncs.com/"
+
+#define topic_sendsuccess @"topic_sendsuccess"
 
 #define index_page @"/api/index/page"
 
@@ -41,6 +43,7 @@
 #define user_changeMobile @"/api/auth/changeMobile" //修改手机号
 #define userSetting  @"/api/user/userSetting" // 用户设置
 #define getUserSetting  @"/api/user/getUserSetting"
+#define  user_setBackground  @"/api/user/setBackground"
 
 
 #import <AFNNetworking.h>
@@ -60,7 +63,7 @@ typedef void(^requestErrorBlock)(NSError *error);
 #pragma mark --POST请求
 + (void)postData:(NSString *)url parameters:(NSDictionary *)param success:(requestSuccessBlock)returnSuccess error:(requestErrorBlock)returnError;
 
-#pragma mark --POST提交请求（图片file）
+#pragma mark --POST提交请求（视频）
 + (void)postData:(NSString *)url parameters:(NSDictionary *)param constructBody:(NSArray *)bodyArry success:(requestSuccessBlock)returnSuccess error:(requestErrorBlock)returnError;
 
 //#pragma mark --网络监听

@@ -32,11 +32,8 @@
    CYLTabBarController *tabBarController = [CYLTabBarController tabBarControllerWithViewControllers:self.viewControllers
                                                                               tabBarItemsAttributes:self.tabBarItemsAttributesForController];
    //[self customizeTabBarAppearance:tabBarController];
-    tabBarController.view.backgroundColor = [UIColor redColor];
+    tabBarController.view.backgroundColor = [UIColor whiteColor];
    self.navigationController.navigationBar.hidden = YES;
-    
-    
-    
    return (self = (MaintabBarViewController *)tabBarController);
 }
 

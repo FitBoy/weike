@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -39,9 +40,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString * sex;
 @property (nonatomic,copy) NSString * birthday;
 
+@property (nonatomic,copy) NSString * gender_text;
+
+@property (nonatomic,strong) UIColor *color_sex;
+
 -(NSString *)birthday;
 -(NSString*)head_image;
 -(NSString *)sex;
+
+-(NSAttributedString *)formatterSex_age;
 
 
 @end
